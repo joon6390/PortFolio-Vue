@@ -9,7 +9,7 @@ import { portText } from '@/constants';
                 portfolio <em>포폴 작업물</em>
             </h2>
             <div class="port__wrap">
-                <article class="port__item p1" v-for="(port, key) in portText" :key="key">
+                <article class="port__item" v-for="(port, key) in portText" :key="key">
                     <span class="num">{{ port.num }}.</span>
                     <a :href="port.code" target="_blank" class="img">
                         <img :src="port.img" :alt="port.name" />
@@ -79,34 +79,34 @@ import { portText } from '@/constants';
                 height: auto;
             }
 
-            &.p1 {
+            &:nth-child(1) {
                 background-color: var(--subBg100);
             }
-            &.p2 {
+            &:nth-child(2) {
                 background-color: var(--subBg200);
             }
-            &.p3 {
+            &:nth-child(3) {
                 background-color: var(--subBg300);
             }
-            &.p4 {
+            &:nth-child(4) {
                 background-color: var(--subBg400);
             }
-            &.p5 {
+            &:nth-child(5) {
                 background-color: var(--subBg500);
             }
-            &.p6 {
+            &:nth-child(6) {
                 background-color: var(--subBg100);
             }
-            &.p7 {
+            &:nth-child(7) {
                 background-color: var(--subBg200);
             }
-            &.p8 {
+            &:nth-child(8) {
                 background-color: var(--subBg300);
             }
-            &.p9 {
+            &:nth-child(9) {
                 background-color: var(--subBg400);
             }
-            &.p10 {
+            &:nth-child(10) {
                 background-color: var(--subBg500);
             }
             .num {
