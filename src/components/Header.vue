@@ -52,7 +52,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @use "@/assets/scss/style" as *;
 
 #header {
