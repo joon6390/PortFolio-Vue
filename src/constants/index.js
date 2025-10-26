@@ -1,3 +1,4 @@
+import about from "../assets/img/about.jpg";
 import port01 from "../assets/img/port01.jpg";
 import port02 from "../assets/img/port02.jpg";
 import port03 from "../assets/img/port03.jpg";
@@ -34,7 +35,8 @@ export const headerNav = [
 
 export const introText = {
     title: "port developer",
-    desc: ["talent is", "found at the end of the", "effort"]
+    desc: ["talent is", "found at the end of the", "effort"],
+    img: about
 };
 
 export const skillText = [
@@ -221,18 +223,23 @@ export const footerText = [
         link: "https://www.youtube.com/playlist?list=PL4UVBBIc6giL8-6jvrClimg0cFL-Muqiq",
     },
     {
+        title: "vite",
+        desc: "비트로 연습한 포트폴리오 사이트입니다.",
+        link: "https://github.com/joon6390/PortFolio-vite",
+    },
+    {
         title: "react",
-        desc: "리액트로 만든 사이트를 같이 만들어 봅니다.",
-        link: "https://github.com/joon6390/port-react",
+        desc: "리액트로 연습한 포트폴리오 사이트입니다.",
+        link: "https://github.com/joon6390/PortFolio-React",
     },
     {
         title: "vue",
-        desc: "뷰로 만든 사이트를 같이 만들어 봅니다.",
-        link: "https://github.com/joon6390/port-vue",
+        desc: "뷰로 연습한 포트폴리오 사이트입니다.",
+        link: "https://github.com/joon6390/PortFolio-Vue",
     },
     {
         title: "next",
-        desc: "넥스트로 만든 사이트를 같이 만들어 봅니다.",
-        link: "https://github.com/joon6390/port-next",
+        desc: "넥스트로 연습한 포트폴리오 사이트입니다.",
+        link: "https://github.com/joon6390/PortFolio-Next",
     },
 ];
